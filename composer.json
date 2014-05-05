@@ -1,0 +1,17 @@
+{
+	"name": "intersvyaz/yii-bootstrap-datetimepicker",
+	"description": "Yii bootstrap datetimepicker widget",
+	"license": "apache",
+	"require": {
+		"php": ">=5.4"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "~3.7",
+		"yiisoft/yii": "~1.1"
+	},
+	"autoload": {
+		"psr-4": {
+			"Intersvyaz\\Widgets\\": "src"
+		}
+	}
+}
