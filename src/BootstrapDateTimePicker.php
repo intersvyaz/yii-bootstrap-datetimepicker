@@ -2,6 +2,10 @@
 
 namespace Intersvyaz\Widgets;
 
+/**
+ * DateTimePicker widget for Twitter Bootstrap.
+ * @see https://github.com/smalot/bootstrap-datetimepicker
+ */
 class BootstrapDateTimePicker extends \CInputWidget
 {
 	/**
