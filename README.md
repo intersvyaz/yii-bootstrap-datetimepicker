@@ -6,3 +6,20 @@ yii-bootstrap-datetimepicker
 [![Code Coverage](https://scrutinizer-ci.com/g/intersvyaz/yii-bootstrap-datetimepicker/badges/coverage.png?s=c286d3af3214412aa7d657e95554e96413cc3ff4)](https://scrutinizer-ci.com/g/intersvyaz/yii-bootstrap-datetimepicker/)
 
 Based on https://github.com/smalot/bootstrap-datetimepicker
+
+## Install via composer
+
+`php composer.phar require intersvyaz/yii-bootstrap-datetimepicker:*`
+
+## Usage example
+
+```php
+$this->widget(
+    'Intersvyaz\Widgets\BootstrapDateTimePicker', 
+    [
+        'name' => 'date',
+        'value' => date('d.m.Y'),
+        'options' => ['format' => 'dd.mm.yyyy']
+    ]
+);
+```
